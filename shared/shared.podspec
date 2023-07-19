@@ -17,14 +17,6 @@ Pod::Spec.new do |spec|
     }
                 
     spec.script_phases = [
-    {
-                :name => 'Set Java Path,
-                :execution_position => :before_compile,
-                :shell_path => '/bin/sh',
-                :script => <<-SCRIPT
-                   JAVA_HOME="/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home";
-                SCRIPT
-        },
         {
             :name => 'Build shared',
             :execution_position => :before_compile,
