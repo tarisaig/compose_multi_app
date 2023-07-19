@@ -7,5 +7,3 @@ build/
 /captures
 .externalNativeBuild
 .cxx
-!iosApp/iosApp.xcodeproj/project.pbxproj
-shared/shared.podspec
